@@ -45,7 +45,7 @@ class Person{
  	let person = new Person(Profile[index].name,Profile[index].age, Profile[index].location, Profile[index].hobbies, Profile[index].music, Profile[index].qoute, Profile[index].img)
  	
 
- 	document.getElementById("wrapper1").innerHTML +=
+ 	$("#wrapper1").append(
  	`<div id = "card_${index}" class = "cardSmall"> 
  		<div id = "imageBox_${index}" class = "imageBoxBig">
  			<img id = "image_${index}" src = ${person.myimage()}>
@@ -59,8 +59,9 @@ class Person{
 			</h5>
  		</div>
  	</div>`
+ 	)
 
- 	document.getElementById("wrapper2").innerHTML +=
+ 	$("#wrapper2").append(
  	`<div id = "cardFav_${index}" class="cardBig"> 
  		<div id = "imageBoxFav_${index}" class = "imageBoxBig">
  			<img id = "imageFav_${index}" src = ${person.myimage()}>
@@ -86,5 +87,6 @@ class Person{
 			</h5>
  		</div>
  	</div>`
+ 	)
  }
 
