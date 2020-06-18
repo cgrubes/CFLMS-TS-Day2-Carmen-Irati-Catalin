@@ -24,7 +24,7 @@
     text-align: center;
     width: 100%;
     font-size: 1.5vw; }
-  .quoteBox p {
+  .quoteBox h5 {
     margin: 0;
     font-size: 4vw; }
 
@@ -59,5 +59,11 @@
   .infoBox h5 {
     margin: 0;
     font-size: 4vw; }
+
+.black {
+  color: black; }
+
+.red {
+  color: red; }
 
 /*# sourceMappingURL=styles.css.map */

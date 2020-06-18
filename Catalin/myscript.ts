@@ -54,9 +54,9 @@ class Person{
 			<h3> 
 				${person.myquote()}
 			</h3>
-			<p>
+			<h5 class = "black">
 				&hearts;
-			</p>
+			</h5>
  		</div>
  	</div>`
 
@@ -81,11 +81,10 @@ class Person{
 			<p>
 				Favourite Music: ${person.myinfo()[4]}
 			</p>
-			<h5>
+			<h5 class = "black">
 				&hearts;
 			</h5>
  		</div>
  	</div>`
-
-
  }
+
