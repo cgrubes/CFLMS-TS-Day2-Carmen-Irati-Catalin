@@ -46,7 +46,7 @@ class Person{
  	
 
  	$("#wrapper1").append(
- 	`<div id = "card_${index}" class = "cardSmall"> 
+ 	`<div id = "one_${index}" class = "cardSmall"> 
  		<div id = "imageBox_${index}" class = "imageBoxBig">
  			<img id = "image_${index}" src = ${person.myimage()}>
  		</div>
@@ -54,7 +54,7 @@ class Person{
 			<h3> 
 				${person.myquote()}
 			</h3>
-			<h5 class = "black">
+			<h5 class = "black" id = "heart_${index}">
 				&hearts;
 			</h5>
  		</div>
@@ -62,7 +62,7 @@ class Person{
  	)
 
  	$("#wrapper2").append(
- 	`<div id = "cardFav_${index}" class="cardBig"> 
+ 	`<div id = "two_${index}" class="cardBig hidden" > 
  		<div id = "imageBoxFav_${index}" class = "imageBoxBig">
  			<img id = "imageFav_${index}" src = ${person.myimage()}>
  		</div>
@@ -82,11 +82,24 @@ class Person{
 			<p>
 				Favourite Music: ${person.myinfo()[4]}
 			</p>
-			<h5 class = "black">
+			<h5 class = "black" id = "heart_fav_${index}">
 				&hearts;
 			</h5>
  		</div>
  	</div>`
  	)
  }
+
+ $(".black").click(function(){
+ 	let card_id = $(this).parents().eq(1).attr("id")
+ 	console.log($(`#heart_${card_id[4]}`))
+ 	$(`#heart_${card_id[4]}`).toggleClass("red")
+ 	$(`#heart_fav_${card_id[4]}`).toggleClass("red")
+
+ 	$(`#two_${card_id[4]}`).toggleClass("show")
+ 	
+
+ })
+
+ 	
 
