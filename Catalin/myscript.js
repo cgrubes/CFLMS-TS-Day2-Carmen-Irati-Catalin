@@ -24,6 +24,11 @@ var Person = /** @class */ (function () {
     return Person;
 }());
 var Profile = JSON.parse(json);
-var person1 = new Person(Profile[0].name, Profile[0].age, Profile[0].location, Profile[0].hobbies, Profile[0].music, Profile[0].qoute, Profile[0].img);
-console.log(person1.myinfo());
-console.log(person1.myquote());
+//var person1 = new Person(Profile[0].name, Profile[0].age, Profile[0].location, Profile[0].hobbies, Profile[0].music, Profile[0].qoute, Profile[0].img);
+//console.log(person1.myinfo());
+//console.log(person1.myquote());
+
+
+for (let index in Profile){
+    document.getElementById
+}
