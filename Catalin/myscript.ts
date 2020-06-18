@@ -27,7 +27,7 @@ class Person{
 	}
 
 }
- var Profile = JSON.parse(json)
+ var Profile = JSON.parse(json);
 
  var person1= new Person(Profile[0].name,Profile[0].age, Profile[0].location, Profile[0].hobbies, Profile[0].music, Profile[0].qoute, Profile[0].img);
 
