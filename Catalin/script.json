@@ -1,0 +1,39 @@
+var json = `[{
+	"name": "Chris",
+	"age": "25",
+	"location":"Thailand",
+	"hobbies": "swimming, drinking",
+	"music":"Eminem",
+	"qoute": "I drink too much",
+	"img":"src"
+},
+{
+	"name": "Chris",
+	"age": "25",
+	"location":"Thailand",
+	"hobbies": "swimming, drinking",
+	"music":"Eminem",
+	"qoute": "I drink too much",
+	"img":"src"
+},
+
+{
+	"name": "Chris",
+	"age": "25",
+	"location":"Thailand",
+	"hobbies": "swimming, drinking",
+	"music":"Eminem",
+	"qoute": "I drink too much",
+	"img":"src"
+},
+
+{
+	"name": "Chris",
+	"age": "25",
+	"location":"Thailand",
+	"hobbies": "swimming, drinking",
+	"music":"Eminem",
+	"qoute": "I drink too much",
+	"img":"src"
+}
+]`
