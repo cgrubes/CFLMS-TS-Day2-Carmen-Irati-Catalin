@@ -48,9 +48,9 @@ class Person{
  	document.getElementById("wrapper1").innerHTML +=
  	`<div id = "card_${index}" class = "cardSmall"> 
  		<div id = "imageBox_${index}" class = "imageBoxBig">
- 			<img id = "image_${index}" src = "https://images.pexels.com/photos/736716/pexels-photo-736716.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+ 			<img id = "image_${index}" src = ${person.myimage()}>
  		</div>
- 		<div id = "quoteBox_${index}">
+ 		<div id = "quoteBox_${index}" class = "quoteBox">
 			<h3> 
 				${person.myquote()}
 			</h3>
@@ -58,11 +58,11 @@ class Person{
  	</div>`
 
  	document.getElementById("wrapper2").innerHTML +=
- 	`<div id = "cardFav_${index} class = "cardBig"> 
+ 	`<div id = "cardFav_${index}" class="cardBig"> 
  		<div id = "imageBoxFav_${index}" class = "imageBoxBig">
- 			<img id = "imageFav_${index}" src = "https://images.pexels.com/photos/736716/pexels-photo-736716.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+ 			<img id = "imageFav_${index}" src = ${person.myimage()}>
  		</div>
- 		<div id = "infoBox_${index}">
+ 		<div id = "infoBox_${index}" class = "infoBox">
 			<h4> 
 				Name: ${person.myinfo()[0]}
 			</h4>
