@@ -8,22 +8,25 @@
   width: 21%;
   margin: 2%;
   box-shadow: 0.5vw 0.5vw 1vw 0vw;
-  border-radius: 0.5vw; }
+  border-radius: 0.5vw;
+  background-color: lightgrey; }
   .cardSmall img {
     width: 100%;
     height: 13.5vw; }
 
 .quoteBox {
   width: 100%;
-  background-color: lightgrey;
   display: flex;
-  justify-content: center;
-  align-items: center; }
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10% 5%; }
   .quoteBox h3 {
     text-align: center;
     width: 100%;
-    padding: 10% 5%;
     font-size: 1.5vw; }
+  .quoteBox p {
+    margin: 0;
+    font-size: 4vw; }
 
 #wrapper2 {
   width: 100%;
@@ -35,14 +38,14 @@
   width: 29%;
   margin: 2%;
   box-shadow: 0.7vw 0.7vw 1vw 0vw;
-  border-radius: 0.7vw; }
+  border-radius: 0.7vw;
+  background-color: lightgrey; }
   .cardBig img {
     width: 100%;
     height: 19vw; }
 
 .infoBox {
   width: 100%;
-  background-color: lightgrey;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,6 +54,10 @@
     width: 100%;
     font-size: 2.5vw; }
   .infoBox p {
-    margin: 0; }
+    margin: 0;
+    font-size: 1.6vw; }
+  .infoBox h5 {
+    margin: 0;
+    font-size: 4vw; }
 
 /*# sourceMappingURL=styles.css.map */

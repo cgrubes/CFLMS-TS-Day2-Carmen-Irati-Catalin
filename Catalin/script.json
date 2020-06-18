@@ -2,79 +2,79 @@ var json = `[{
 	"name": "Lyla",
 	"age": "25",
 	"location":"Thailand",
-	"hobbies": "swimming,reading books, Palm reading ",
-	"music":"Taylor Swift,Britney,Lady GaGa",
-	"qoute": "Sometimes when i close my eyes, I can't see",
+	"hobbies": "Swimming, reading books, Palm reading",
+	"music":"Taylor Swift, Britney, Lady GaGa",
+	"qoute": " 'Sometimes when i close my eyes, I can't see' ",
 	"img":"img/chen.jpeg"
 },
 {
 	"name": "Chris",
 	"age": "28",
 	"location":"New York",
-	"hobbies": "time travel, arguing with people online, sleeping ",
+	"hobbies": "Time travel, arguing with people online, sleeping",
 	"music":"RnB, Sunrise Avenue",
-	"qoute": "Never go to a doctor whose office plants have died!",
-	"img":"img/john.jpeg"
+	"qoute": " 'Never go to a doctor whose office plants have died!' ",
+	"img":"img/john.jpg"
 },
 
 {
 	"name": "Jake",
 	"age": "26",
 	"location":"Australia",
-	"hobbies": "being awesome, Bull fighting, Netflix n'chill",
+	"hobbies": "Being awesome, Bull fighting, Netflix n'chill",
 	"music":"R.E.M, Simple Plan, Demi Lovato",
-	"qoute": "People say nothing is impossible, but I do nothing every day!",
-	"img":"img/Jake.jpeg"
+	"qoute": " 'People say nothing is impossible, but I do nothing every day!' ",
+	"img":"img/Jake.jpg"
 },
 
 {
 	"name": "Noel",
 	"age": "25",
 	"location":"Hawaii",
-	"hobbies": "swimming, making snow Globes,tree shaping",
+	"hobbies": "Swimming, making snow globes, tree shaping",
 	"music":"Hawaiian Music",
-	"qoute": "Life is short, buy the shoes",
-	"img":"img/noel.jpeg"
+	"qoute": " 'Life is short, buy the shoes' ",
+	"img":"img/noel.jpg"
 },
 
 {
 	"name": "Miranda",
 	"age": "24",
 	"location":"Los Angeles",
-	"hobbies": "Collecting barbie dolls, Geocaching,suing people",
+	"hobbies": "Collecting barbie dolls, Geocaching, suing people",
 	"music":"Evanescence, Nicki Minaj",
-	"qoute": "I enjoy long romantic walks to the fridge",
-	"img":"img/reahead.jpeg"
+	"qoute": " 'I enjoy long romantic walks to the fridge' ",
+	"img":"img/redhead.jpg"
 },
 
 {
 	"name": "Mike",
 	"age": "32",
 	"location":"Vietnam",
-	"hobbies": "Newsraiding, reading,Noodling",
-	"music":"NF, The Calling, Miley Cyrus ",
-	"qoute": "My heart has no room for you, but the trunk of my car definitely does!",
-	"img":"img/mike.jpeg"
+	"hobbies": "Newsraiding, reading, Noodling",
+	"music":"NF, The Calling, Miley Cyrus",
+	"qoute": " 'My heart has no room for you, but the trunk of my car definitely does!' ",
+	"img":"img/mike.jpg"
 },
 
 {
 	"name": "Maja",
 	"age": "27",
 	"location":"France",
-	"hobbies": "soap carving, Quidditch",
-	"music":"i don't listen to music",
-	"qoute": "I didn't fall, I'm just spending some quality time with the floor! ",
-	"img":"img/maja.jpeg"
+	"hobbies": "Soap carving, Quidditch",
+	"music":"I don't listen to music",
+	"qoute": " 'I didn't fall, I'm just spending some quality time with the floor!' ",
+	"img":"img/maja.jpg"
 },
 
 {
 	"name": "Crazy Timi",
-	"age": "35",
+	"age": "35",	
 	"location":"Canada",
 	"hobbies": "Ghost hunting, Element collecting",
 	"music":"Hardcore",
-	"qoute": "I know the voices aren't real, but man do they come up with some great ideas",
-	"img":"img/smith.jpeg"
+	"qoute": " 'I know the voices aren't real, but man do they come up with some great ideas' ",
+	"img":"img/smith.jpg"
 }
 
 

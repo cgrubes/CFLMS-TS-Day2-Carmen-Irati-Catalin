@@ -54,6 +54,9 @@ class Person{
 			<h3> 
 				${person.myquote()}
 			</h3>
+			<p>
+				&hearts;
+			</p>
  		</div>
  	</div>`
 
@@ -78,6 +81,9 @@ class Person{
 			<p>
 				Favourite Music: ${person.myinfo()[4]}
 			</p>
+			<h5>
+				&hearts;
+			</h5>
  		</div>
  	</div>`
 
